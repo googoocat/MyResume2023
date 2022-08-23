@@ -1,5 +1,14 @@
 /*# sourceMappingURL=mycss.css.map */
-
+body{
+    background-image: url("../img/background-flower.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif,Microsoft JhengHei;
+}
+#sideNav{
+    background-color: rgba(26, 25, 25, 0.568) !important;
+}
 .myfontfamily {
     font-family: Microsoft JhengHei;
 }
