@@ -1,0 +1,55 @@
+/*# sourceMappingURL=mycss.css.map */
+
+.myfontfamily {
+    font-family: Microsoft JhengHei;
+}
+
+.myicon {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 25px;
+
+}
+
+.modal-dialog {
+    max-width: 65% !important;
+
+}
+
+@media (max-width: 768px) {
+    .modal-dialog {
+        max-width: 80% !important;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        max-width: 100% !important;
+
+    }
+}
+
+
+/* Portfolio區卡片設定 */
+/* 卡片內文置中 */
+.Portfolio .card-img-overlay {
+    transition: 0.5s;
+  }
+.card-text{
+    display: block;
+    justify-content: center;
+}
+
+/* hover效果 */
+#Portfolio .Portfolio-card.card-img-overlay:hover,#Portfolio2 .Portfolio-card.card-img-overlay:hover {
+    background-color: rgba(6, 8, 10, 0.842);
+    transition: 0.5s;
+}
+
+/* 內文hover效果:原本設定opacity為0,hover時opacity為1 */
+#Portfolio .Portfolio-card.card-img-overlay:hover .card-text,#Portfolio2 .Portfolio-card.card-img-overlay:hover .card-text {
+    opacity: 1 !important;
+    transition: 0.2s;
+}
