@@ -5,9 +5,14 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif,Microsoft JhengHei;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+    
 }
 #sideNav{
-    background-color: rgba(26, 25, 25, 0.568) !important;
+    background-color: rgba(26, 25, 25, 82%) !important;
 }
 .myfontfamily {
     font-family: Microsoft JhengHei;
@@ -52,13 +57,13 @@ body{
 }
 
 /* hover效果 */
-#Portfolio .Portfolio-card.card-img-overlay:hover,#Portfolio2 .Portfolio-card.card-img-overlay:hover {
+#Portfolio .Portfolio-card.card-img-overlay:hover,#Portfolio2 .Portfolio-card.card-img-overlay:hover,#Portfolio3 .Portfolio-card.card-img-overlay:hover {
     background-color: rgba(6, 8, 10, 0.842);
     transition: 0.5s;
 }
 
 /* 內文hover效果:原本設定opacity為0,hover時opacity為1 */
-#Portfolio .Portfolio-card.card-img-overlay:hover .card-text,#Portfolio2 .Portfolio-card.card-img-overlay:hover .card-text {
+#Portfolio .Portfolio-card.card-img-overlay:hover .card-text,#Portfolio2 .Portfolio-card.card-img-overlay:hover .card-text,#Portfolio3 .Portfolio-card.card-img-overlay:hover .card-text {
     opacity: 1 !important;
     transition: 0.2s;
 }
